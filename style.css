@@ -1,4 +1,152 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4B4B4B;
+}
+
+.hero {
+    background-color: #F7D881;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    align-items: center;
+}
+
+.hero-section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.left-side {
+    max-width: 500px;
+    margin-right: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #4B4B4B;
+    margin: 0px 12px;
+}
+
+#header-image {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #F6B26B;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(19, 19, 19);
+}
+
+h1 {
+    color: rgb(19, 19, 19);
+}
+
+.logo {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(58, 28, 8);
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.illustration-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.illustration-and-text {
+    width: 200px;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.illustration {
+    border: 3px solid #F6B26B;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #FFF7E6;
+}
+
+#quote {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#speaker {
+    text-align: end;
+    font-weight: 800;
+    margin: 0;
+    color: rgb(29, 29, 29);
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.action-container {
+    background-color: #F6B26B;
+    padding: 10px 80px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-left {
+    margin-right: 20px;
+
+}
+
+#border-button {
+    border: 3px solid rgb(29, 29, 29);
+}
+
+.footer {
+    background-color: #F7D881;
+    text-align: center;
+    padding: 20px;
 }
