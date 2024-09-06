@@ -26,11 +26,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 80px;
+    flex-wrap: wrap;
 }
 
 .left-side {
     max-width: 550px;
-    margin-right: 40px;
+    min-width: 350px;
+    margin: 40px;
     
 }
 
@@ -43,6 +45,8 @@ a {
 #header-image {
     max-width: 500px;
     border-radius: 10px;
+    margin: 30px;
+    flex-shrink: 1;
 }
 
 button {
@@ -79,7 +83,7 @@ h3 {
 .illustration-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1400px;
 }
 
@@ -134,8 +138,10 @@ h2 {
 #speaker {
     text-align: end;
     font-weight: 800;
+    font-size: 20px;
     margin: 0;
     color: rgb(29, 29, 29);
+    margin-right: 40px;
 }
 
 .action {
@@ -165,5 +171,5 @@ h2 {
 .footer {
     background-color: #F7D881;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
